@@ -9,65 +9,59 @@ with open('presidents.csv', newline='') as csvfile:
 	csvfile.seek(0)
 	next(csvfile)
 
-	# names of presidents
-	names = [line[0] for line in pres_reader]
-	
-	# reset where it's seeking, skip fieldname
-	csvfile.seek(0)
-	next(csvfile)
+	names = 			[]
+	numbers = 			[]
+	parties = 			[]
+	winning_elections = []
+	served_from = 		[]
+	served_until = 		[]
+	vps = 				[]
+	ages = 				[]
+	img_names = 		[]
+	achievements = 		[]
 
-	# number of president
-	numbers = [line[1] for line in pres_reader]
+	for line in pres_reader:
+		for index, item in enumerate(line):
+			if index == 0:
+				names.append(item)
+			if index == 1:
+				numbers.append(item)
+			if index == 2:
+				item = item.split(",")
+				parties.append(item)
+			if index == 3: 
+				item = item.split(",")
+				winning_elections.append(item)
+			if index == 4:
+				served_from.append(item)
+			if index == 5:
+				served_until.append(item)
+			if index == 6:
+				item = item.split(",")
+				vps.append(item)
+			if index == 7:
+				ages.append(item)
+			if index == 8:
+				img_names.append(item)
+			if index == 9:
+				item = item.split('\n')
+				achievements.append(item)
 
-	csvfile.seek(0)
-	next(csvfile)
+presidents = [names, numbers, parties, winning_elections, served_from, served_until, vps, ages, img_names, achievements]
 
-	# political parties, separated by comma if >1
-	parties = [line[2] for line in pres_reader]
+i = 0
+while i <= 45:
+	entry = f'- name: {names[i]}\n  number: {numbers[i]}\n  parties:  {parties[i]}\n  winning_elections: {winning_elections[i]}\n  served_from: {served_from[i]}\n  served_until: {served_until[i]}\n  vps: {vps[i]}\n  age: {ages[i]}\n  achievements: {achievements[i]}'
+	i = i + 1
+	print(entry)
 
-	csvfile.seek(0)
-	next(csvfile)
+test = ['hello', 'goodbye', 'what']
 
-	# elections they won
-	winning_elections = [line[3] for line in pres_reader]
-	
-	csvfile.seek(0)
-	next(csvfile)
+#for item in test:
+#	"- " + item)
 
-	# date entered office
-	served_from = [line[4] for line in pres_reader]
-	
-	csvfile.seek(0)
-	next(csvfile)
 
-	# date left office
-	served_until = [line[5] for line in pres_reader]
-
-	csvfile.seek(0)
-	next(csvfile)
-
-	# vice presidents
-	vps = [line[6] for line in pres_reader]
-
-	csvfile.seek(0)
-	next(csvfile)
-
-	# age at inauguration
-	ages = [line[7] for line in pres_reader]
-
-	csvfile.seek(0)
-	next(csvfile)
-
-	# portrait filenames
-	img_names = [line[8] for line in pres_reader]
-
-	csvfile.seek(0)
-	next(csvfile)
-
-	# notable achievements
-	achievements = [line[9] for line in pres_reader]
-
-	'''
+'''
 	YAML:
 
 	- name: {name}

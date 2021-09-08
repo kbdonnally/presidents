@@ -1,0 +1,59 @@
+---
+layout: base
+---
+
+{% assign presidents = site.data.presidents %}
+
+<h1 class="pres-timeline__title">Presidential Timeline</h1>
+<h3 class="pres-timeline__subtitle">A timeline of the United States presidents &amp; what they did.</h3>
+
+{% for prez in presidents %}
+<section class="pres-timeline-entry-wrapper">
+	<h1 class="pres-timeline__name">{{ prez.name }}</h1>
+	<div class="pres-timeline__metadata">
+		<div class="pres-metadata__number"><span>Number:</span> {{ prez.number}}</div>
+		<div class="pres-metadata__served"><span>Served:</span> {{ prez.served_from}} - {{ prez.served_until}}</div>
+		<div class="pres-metadata__elections"><span>Winning elections:</span> 
+			{% for e in prez.winning_elections %}
+			{% if forloop.last %}
+			{{e}} 
+			{% else %}
+			{{e}}, 
+			{% endif %}
+			{% endfor%}
+		</div>
+		<div class="pres-metadata__party"><span>Parties:</span>
+			{% for p in prez.parties %}
+			{% if forloop.last %}
+			{{p}} 
+			{% else %}
+			{{p}}, 
+			{% endif %}
+			{% endfor%}
+		</div>
+		<div class="pres-metadata__vps"><span>Vice Presidents:</span> 
+			{% for vp in prez.vps %}
+			{% if forloop.last %}
+			{{vp}} 
+			{% else %}
+			{{vp}}, 
+			{% endif %}
+			{% endfor%}
+		</div>
+		<div class="pres-metadata__age"><span>Age at Inauguration:</span> {{prez.age}}</div>
+	</div>
+
+	<div class="pres-img-wrapper">
+		<img class="pres-metadata__img" alt="{{ prez.name }} portrait" src="assets/img/{{prez.img}}">
+	</div>
+
+	<section class="pres-tl-achievements-wrapper">
+		<h3 class="pres-tl__achievements-title">Achievements:</h3>
+		<ul class="pres-tl__achievement-list">
+			{% for item in prez.achievements%}
+			<li class="pres-achievements__item">{{ item }}</li>
+			{% endfor %}
+		</ul>
+	</section>
+</section>
+{% endfor %}

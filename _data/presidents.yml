@@ -8,6 +8,7 @@
   served_until: March 4, 1797
   vps: ['John Adams']
   age: 57
+  img: 01-george-washington.jpg
   achievements:
     - First president and left the position willingly after 2 terms
     - Pro-slavery, passed the Fugitive Slave Act ("which overrode state laws and courts, allowing agents to cross state lines to capture and return escaped slaves" - Wikipedia).
@@ -23,6 +24,7 @@
   served_until: March 4, 1801
   vps: ['Thomas Jefferson']
   age: 61
+  img: 02-john-adams.jpg
   achievements:
     - Only president to be elected on the Federalist ticket
     - Passed Alien and Sedition Acts; built up military (quasi-war with France after the XYZ affair)
@@ -36,6 +38,7 @@
   served_until: March 4, 1809
   vps: ['Aaron Burr', ' George Clinton']
   age: 57
+  img: 03-thomas-jefferson.jpg
   achievements:
     - 'First Barbary War: pirates were capturing US merchants, authorized use of Navy against them; first foreign war the US fought'
     - Completed the Louisiana Purchase, which doubled the land of the country
@@ -49,6 +52,7 @@
   served_until: March 4, 1817
   vps: ['George Clinton', ' Vacant', ' Elbridge Gerry', ' Vacant']
   age: 57
+  img: 04-james-madison.jpg
   achievements:
     - Dealt with the War of 1812, a result of British interference with American merchant ships
     - Created Second Bank of the US; enacted a protective tariff in 1816
@@ -61,6 +65,7 @@
   served_until: March 4, 1825
   vps: ['Daniel D. Tompkins']
   age: 58
+  img: 05-james-monroe.jpg
   achievements:
     - Presided over the Era of Good Feelings, "a period in the political history of the United States that reflected a sense of national purpose and a desire for unity among Americans in the aftermath of the War of 1812." (Wikipedia)
     - Signed Missouri Compromise, which let in Missouri as a slave state, and outlawed slavery from any territory north of the 36Â°30' parallel
@@ -75,6 +80,7 @@
   served_until: March 4, 1829
   vps: ['John C. Calhoun']
   age: 57
+  img: 06-john-quincy-adams.jpg
   achievements:
     - Son of John Adams
     - Wanted to do things like establish a national university and create a naval academy, as well as create a national observatory, but Congress voted against most of his initiatives
@@ -88,6 +94,7 @@
   served_until: March 4, 1837
   vps: ['John C. Calhoun', ' Vacant', ' Martin Van Buren']
   age: 61
+  img: 07-andrew-jackson.jpg
   achievements:
     - Only president to completely pay off the national debt
     - Dismantled the National Bank
@@ -102,6 +109,7 @@
   served_until: March 4, 1841
   vps: ['Richard Mentor Johnson']
   age: 54
+  img: 08-martin-van-buren.jpg
   achievements:
     - Only president whose first language was not English (it was Dutch)
     - Panic of 1837, a massive financial crisis and subsequent economic depression, occurred during his term; conditions would not recover until the mid-1840s
@@ -115,6 +123,7 @@
   served_until: April 4, 1841
   vps: ['John Tyler']
   age: 68
+  img: 09-william-henry-harrison.jpg
   achievements:
     - Served only 31 days in office, the shortest term for any US president to date
     - Only accomplishment was calling a special session of Congress
@@ -126,6 +135,7 @@
   served_until: March 4, 1845
   vps: ['Vacant']
   age: 51
+  img: 10-john-tyler.jpg
   achievements:
     - Never elected; inherited position after William Henry Harrison died
     - Slaveholder, anti-abolitionist
@@ -138,6 +148,7 @@
   served_until: March 23, 1849
   vps: ['George M. Dallas']
   age: 49
+  img: 11-james-k-polk.jpg
   achievements:
     - Notable for achieving all major domestic and foreign policy goals
     - Provoked war with Mexico (1846-48) for additional territory in the west; obtained the American Southwest as a result
@@ -153,6 +164,7 @@
   served_until: July 9, 1850
   vps: ['Millard Fillmore']
   age: 64
+  img: 12-zachary-taylor.jpg
   achievements:
     - Died while in office after roughly a year
     - Had little interest in politics; very little was accomplished during his term
@@ -165,6 +177,7 @@
   served_until: March 4, 1853
   vps: ['Vacant']
   age: 50
+  img: 13-millard-fillmore.jpg
   achievements:
     - Signed the Compromise of 1850 into law, which compromised over slavery in new territories, added a stricter Fugitive Slave Law, and banned the slave trade in Washington, D.C.
     - Signed the construction of several railroads
@@ -177,6 +190,7 @@
   served_until: March 4, 1857
   vps: ['William R. King', ' Vacant']
   age: 48
+  img: 14-franklin-pierce.jpg
   achievements:
     - Signed the Kansas-Nebraska Act, which effectively repealed the Missouri Compromise and heightened conflict over slavery, as well as sparked violent conflicts in Kansas, known as "Bleeding Kansas"
     - Signed the Gadsden Purchase, which acquired more land from Mexico and turned it into the southern parts of Arizona and New Mexico
@@ -189,6 +203,7 @@
   served_until: March 4, 1861
   vps: ['John C. Breckinridge']
   age: 65
+  img: 15-james-buchanan.jpg
   achievements:
     - Supported the Dred Scott Supreme Court decision, which effectively stated people of African descent were not citizens and thus that Constitutional rights do not apply to them
     - Attempted to ensure Kansas would enter the nation as a slave state (ended up being a free state)
@@ -201,6 +216,7 @@
   served_until: April 15, 1865
   vps: ['Hannibal Hamlin', ' Andrew Johnson']
   age: 52
+  img: 16-abraham-lincoln.jpg
   achievements:
     - Southern states began to secede upon his election due to his opposition to the expansion of slavery; served as president throughout the Civil War
     - Freed slaves via the Emancipation Proclamation, and promoted the 13th Amendment, which would abolish slavery throughout the country
@@ -217,6 +233,7 @@
   served_until: March 4, 1869
   vps: ['Vacant']
   age: 56
+  img: 17-andrew-johnson.jpg
   achievements:
     - Vehemently opposed the 14th amendment, which gave citizenship to former slaves
     - Undid much of Reconstruction, and allowed previously Confederate states to make their own governments, which Radical Republicans attempted to override, and then Johnson vetoed, and then they overrode his veto... this continued as a pattern throughout his presidency
@@ -230,6 +247,7 @@
   served_until: March 4, 1877
   vps: ['Schuyler Colfax', ' Henry Wilson', ' Vacant']
   age: 46
+  img: 18-ulysses-s-grant.jpg
   achievements:
     - 'Noted civil rights president: signed the 15th Amendment into law (granting the franchise as a right to African Americans), oversaw Reconstruction at its most militant, and ensured black legislators were able to actually hold their offices'
     - In second term, shifted focus away from Reconstruction, which resulted in the proliferation of conservative southern white "Redeemers" who formed armed militias; these groups "openly used violence, intimidation, voter fraud, and racist appeals to overturn Republican rule." (Wikipedia)
@@ -245,6 +263,7 @@
   served_until: March 4, 1881
   vps: ['William A. Wheeler']
   age: 54
+  img: 19-rutherford-b-hayes.jpg
   achievements:
     - Hayes' presidency marks the end of Reconstruction and the end of any attempt for racial equality in the South for another 90 years
     - Supported civil service reform and meritocratic appointments, rather than the "spoils system" (nepotism)
@@ -260,6 +279,7 @@
   served_until: September 19, 1881
   vps: ['Chester A. Arthur']
   age: 49
+  img: 20-james-a-garfield.jpg
   achievements:
     - Died after only 4 months in office
     - Was a supporter of civil rights for all, and for continuing civil service reform
@@ -271,6 +291,7 @@
   served_until: March 4, 1885
   vps: ['Vacant']
   age: 51
+  img: 21-chester-a-arthur.jpg
   achievements:
     - Attained the office after Garfield's death
     - Supported the Pendleton Civil Service Reform Act, which mandates that (most) federal government positions must be appointed by merit, not patronage
@@ -285,6 +306,7 @@
   served_until: March 4, 1889
   vps: ['Thomas A. Hendricks', ' Vacant']
   age: 47
+  img: 22-grover-cleveland.jpg
   achievements:
     - Supporter of meritocratic appointment for federal positions
     - Vetoed many pension bills for Civil War veterans
@@ -298,6 +320,7 @@
   served_until: March 4, 1893
   vps: ['Levi P. Morton']
   age: 55
+  img: 23-benjamin-harrison.jpg
   achievements:
     - Enacted the McKinley tariff, which raised high tariffs even higher (with some exceptions, like sugar)
     - Signed the Sherman Antitrust Act, which "broadly prohibits 1) anticompetitive agreements and 2) unilateral conduct that monopolizes or attempts to monopolize the relevant market." (Wikipedia)
@@ -313,6 +336,7 @@
   served_until: March 4, 1897
   vps: ['Adlai Stevenson I']
   age: 55
+  img: 24-grover-cleveland.jpg
   achievements:
     - Panic of 1893 happened shortly into term
     - Oversaw repeal of the Sherman Silver Purchase Act, marking the beginning of the end for silver as a form of national currency
@@ -328,6 +352,7 @@
   served_until: September 14, 1901
   vps: ['Garret Hobart', ' Vacant', ' Theodore Roosevelt']
   age: 54
+  img: 25-william-mckinley.jpg
   achievements:
     - Oversaw the Spanish-American War (1898) after explosion of the USS Maine, largely over Cuban independence
     - In the aftermath of the war, the US gained Puerto Rico, the Philippines, Guam, and annexed Hawaii shortly afterwards
@@ -343,6 +368,7 @@
   served_until: March 4, 1909
   vps: ['Vacant', ' Charles W. Fairbanks']
   age: 42
+  img: 26-theodore-roosevelt.jpg
   achievements:
     - While a supporter of big business, Roosevelt made extensive use of the Sherman Antitrust Act and acted as a regulator against "'bad trusts' that restrained trade and charged unfair prices" (so, any trust that exercised their monopoly powers)
     - Pet project was the Panama Canal, which the US seized control of in 1904 and which would be open for use in 1914
@@ -357,6 +383,7 @@
   served_until: March 4, 1913
   vps: ['James S. Sherman', ' Vacant']
   age: 51
+  img: 27-william-howard-taft.jpg
   achievements:
     - Restructured the State Department and organized it into geographical divisions for the first time
     - Focused more on East Asia than previous presidents
@@ -370,6 +397,7 @@
   served_until: March 4, 1921
   vps: ['Thomas R. Marshall']
   age: 56
+  img: 28-woodrow-wilson.jpg
   achievements:
     - 'Came into office with four domestic priorities: 1) conservation of natural resources, 2) banking reform, 3) tariff reduction, and 4) equal access to raw materials, partially achieved by regulation of trusts'
     - Signed the Revenue Act of 1913, which reduced tariffs and made up the revenue by taxing all incomes above $3,000 at a rate of 1%
@@ -387,6 +415,7 @@
   served_until: August 2, 1923
   vps: ['Calvin Coolidge']
   age: 55
+  img: 29-warren-g-harding.jpg
   achievements:
     - Refused to join League of Nations
     - Favored scaling down the military
@@ -401,6 +430,7 @@
   served_until: March 4, 1929
   vps: ['Vacant', ' Charles D. Dawes']
   age: 51
+  img: 30-calvin-coolidge.jpg
   achievements:
     - Inherited position after Harding died
     - Extremely opposed to any kind of regulation on business; appointed commissioners at the FTC and ICC who were sympathetic to his views
@@ -415,6 +445,7 @@
   served_until: March 4, 1933
   vps: ['Charles Curtis']
   age: 54
+  img: 31-herbert-hoover.jpg
   achievements:
     - Stock market crashed shortly into his presidency, and the Great Depression marked his entire term
     - After the crash, he preferred to try to bolster the economy by strengthening businesses, rather than doing anything that would directly help individuals
@@ -429,6 +460,7 @@
   served_until: April 12, 1945
   vps: ['John Nance Garner', 'Henry A. Wallace', 'Harry S. Truman']
   age: 51
+  img: 32-franklin-d-roosevelt.jpg
   achievements:
     - Only president to serve more than 2 terms
     - '"First 100 Days" of his term saw an incredible amount of sweeping legislation: established Federal Emergency Relief Administration to help the poor, established the Civilian Conservation Corps, established the Agricultural Adjustment Administration (to raise crop prices to help farmers), created the Public Works Administration, improved working conditions and outlawed child labor, established the Tennessee Valley Authority to build dams on the Tennessee River (for hydroelectric power)'
@@ -451,8 +483,9 @@
   served_until: January 20, 1953
   vps: ['Vacant', 'Alben W. Barkley']
   age: 60
+  img: 33-harry-s-truman.jpg
   achievements:
-    - 'Only president to use nuclear force:' dropped 2 nuclear bombs on Japan in August 1945; Japan surrendered shortly after
+    - 'Only president to use nuclear force: dropped 2 nuclear bombs on Japan in August 1945; Japan surrendered shortly after'
     - Faced many strikes in 1946, as the economy demobilized from war and consumer goods prices shot up due to removal of depression-era price limits
     - Union power limited by 1947 Taft-Hartley Act, which passed despite Truman's veto
     - Advocate for national health insurance, which was defeated by a coalition of health providers
@@ -470,6 +503,7 @@
   served_until: January 20, 1961
   vps: ['Richard Nixon']
   age: 62
+  img: 34-dwight-d-eisenhower.jpg
   achievements:
     - Created the Department of Health, Education, and Welfare
     - Implemented racial integration of the military
@@ -488,6 +522,7 @@
   served_until: November 22, 1963
   vps: ['Lyndon B. Johnson']
   age: 43
+  img: 35-john-f-kennedy.jpg
   achievements:
     - Berlin Wall was constructed during his time in office
     - Wanted to overthrow Fidel Castro in Cuba, with the CIA leading the charge. This ended in the 1961 "Bay of Pigs Invasion" and subsequent crisis in which Cuba captured the invaders (themselves anti-Castro exiles) and the US had to negotiate their release
@@ -502,6 +537,7 @@
   served_until: January 20, 1969
   vps: ['Vacant', 'Hubert Humphrey']
   age: 55
+  img: 36-lyndon-b-johnson.jpg
   achievements:
     - Using his extensive knowledge of the workings of Congress, managed to get the Civil Rights Bill of 1964 passed despite fierce opposition from Southern Democrats; the bill "outlaws discrimination based on race, color, religion, sex, national origin, and later sexual orientation and gender identity." (Wikipedia)
     - Oversaw passage of the Voting Rights Act of 1965, which outlawed discrimination in voting and thus outlawed the Jim Crow laws which had prevented almost all blacks from voting in the South since Reconstruction (90 years prior)
@@ -516,6 +552,7 @@
   served_until: August 9, 1974
   vps: ['Spiro Agnew', 'Vacant', 'Gerald Ford']
   age: 56
+  img: 37-richard-nixon.jpg
   achievements:
     - First president to visit Communist China, in 1972
     - 'Mixed on Vietnam: authorized secret carpet bombing, attacked Laos and Cambodia, but also made a point of withdrawing American troops and replacing them with Vietnamese soldiers ("Vietnamization")'
@@ -534,6 +571,7 @@
   served_until: January 20, 1977
   vps: ['Vacant', 'Nelson Rockefeller']
   age: 61
+  img: 38-gerald-ford.jpg
   achievements:
     - Inherited position from Richard Nixon, who had resigned
     - Pardoned Nixon a month into his presidency
@@ -549,6 +587,7 @@
   served_until: January 20, 1981
   vps: ['Walter Mondale']
   age: 52
+  img: 39-jimmy-carter.jpg
   achievements:
     - Energy crisis during his term; encouraged citizens to take actions like turning down the thermostat and wearing sweaters to compensate; declared energy crisis the moral equivalent of war
     - Installed solar panels on the White House 
@@ -563,6 +602,7 @@
   served_until: January 20, 1989
   vps: ['George H.W. Bush']
   age: 69
+  img: 40-ronald-reagan.jpg
   achievements:
     - Proposed an amendment to add organized prayer in schools during his first term
     - Survived an assassination attempt in 1981
@@ -584,6 +624,7 @@
   served_until: January 20, 1993
   vps: ['Dan Quayle']
   age: 64
+  img: 41-george-hw-bush.jpg
   achievements:
     - End of the Cold War occurred during his presidency; the Soviet Union dissolved in 1991, with Boris Yeltsin as president of Russia 
     - Much philosophizing about the era occurred, with Francis Fukuyama famously speculating that "humanity had reached 'the end of history'", or in other words, that "liberal, capitalist democracy had permanently triumphed over Communism and fascism." (Wikipedia)
@@ -600,6 +641,7 @@
   served_until: January 20, 2001
   vps: ['Al Gore']
   age: 46
+  img: 42-bill-clinton.jpg
   achievements:
     - Attempted to achieve a universal healthcare plan, an initiative spearheaded by First Lady Hillary Clinton, but it eventually fell prey to well-organized lobbyists funded by the American Medical Association (which had prevented universal healthcare since the 1950s) and the healthcare insurance industry
     - Signed the Brady Bill, which established federal background checks on anyone purchasing a firearm in the US
@@ -618,6 +660,7 @@
   served_until: January 20, 2009
   vps: ['Dick Cheney']
   age: 54
+  img: 43-george-w-bush.jpg
   achievements:
     - Passed one of the largest tax cuts in American history
     - Created No Child Left Behind, which "aimed to measure and close the gap between rich and poor student performance, provide options to parents with students in low-performing schools, and target more federal funding to low-income schools" (Wikipedia)
@@ -639,6 +682,7 @@
   served_until: January 20, 2017
   vps: ['Joe Biden']
   age: 47
+  img: 44-barack-obama.jpg
   achievements:
     - Elevated two women to the Supreme Court, Elena Kagan and Sonia Sotomayor, respectively
     - Repealed Don't Ask, Don't Tell and ended the ban on transgender people serving in the military
@@ -662,6 +706,7 @@
   served_until: January 20, 2021
   vps: ['Mike Pence']
   age: 70
+  img: 45-donald-trump.jpg
   achievements:
     - Notable primarily for the immense nepotism, scandal, and general unprofessionalism during his entire presidency, as well as before and after
     - There are almost uncountable scandals during Trump's presidency, so we will attempt to stick with the most notable ones, and try to highlight the few actual policies he implemented
@@ -683,6 +728,7 @@
   served_until: January 20, 2025
   vps: ['Kamala Harris']
   age: 78
+  img: 46-joe-biden.jpg
   achievements:
     - 'Note: current president, in office since January 2021'
     - Rejoined Paris Climate Agreement, which Trump had left

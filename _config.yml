@@ -1,7 +1,7 @@
 # 1. metadata
 title: Katherine Donnally
-baseurl: ""
-url: "http://kbdonnally.io/presidents" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/presidents"
+url: "http://kbdonnally.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 description: >-
   One-page timeline of all the U.S. presidents.

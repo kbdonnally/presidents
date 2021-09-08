@@ -1,7 +1,7 @@
 # presidents.py
 
 import csv
-with open('presidents.csv', newline='') as csvfile:
+with open('../../_data/presidents-original.csv', newline='') as csvfile:
 	pres_reader = csv.reader(csvfile)
 
 	# resets seek to 0, then goes one after that
@@ -50,15 +50,14 @@ with open('presidents.csv', newline='') as csvfile:
 presidents = [names, numbers, parties, winning_elections, served_from, served_until, vps, ages, img_names, achievements]
 
 i = 0
-while i <= 45:
+'''while i <= 45:
 	entry = f'- name: {names[i]}\n  number: {numbers[i]}\n  parties:  {parties[i]}\n  winning_elections: {winning_elections[i]}\n  served_from: {served_from[i]}\n  served_until: {served_until[i]}\n  vps: {vps[i]}\n  age: {ages[i]}\n  achievements:'
 	for a in achievements[i - 1]:
 		print(f'    {a}')
 	i = i + 1
 	print(entry)
 for a in achievements[45]:
-		print(f'    {a}')
+		print(f'    {a}')'''
 	
-
-# for item in achievements[0]:
-	#print(item)
+for i, img in enumerate(img_names):
+	print(f'    img: {img}')

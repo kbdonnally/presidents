@@ -51,27 +51,14 @@ presidents = [names, numbers, parties, winning_elections, served_from, served_un
 
 i = 0
 while i <= 45:
-	entry = f'- name: {names[i]}\n  number: {numbers[i]}\n  parties:  {parties[i]}\n  winning_elections: {winning_elections[i]}\n  served_from: {served_from[i]}\n  served_until: {served_until[i]}\n  vps: {vps[i]}\n  age: {ages[i]}\n  achievements: {achievements[i]}'
+	entry = f'- name: {names[i]}\n  number: {numbers[i]}\n  parties:  {parties[i]}\n  winning_elections: {winning_elections[i]}\n  served_from: {served_from[i]}\n  served_until: {served_until[i]}\n  vps: {vps[i]}\n  age: {ages[i]}\n  achievements:'
+	for a in achievements[i - 1]:
+		print(f'    {a}')
 	i = i + 1
 	print(entry)
+for a in achievements[45]:
+		print(f'    {a}')
+	
 
-test = ['hello', 'goodbye', 'what']
-
-#for item in test:
-#	"- " + item)
-
-
-'''
-	YAML:
-
-	- name: {name}
-	  number: {number}
-	  party: {party}
-	  winning_elections: {elections}
-	  age: {age}
-	  vp: {vp}
-	  served_from: {date}
-	  served_to: {date}
-	  img_name: {img}
-	  achievements: {achievements}
-	'''
+# for item in achievements[0]:
+	#print(item)

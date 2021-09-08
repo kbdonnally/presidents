@@ -1,0 +1,16 @@
+---
+layout: base
+---
+
+{% assign presidents = site.data.presidents %}
+
+
+{% for prez in presidents %}
+<h1 class="pres-timeline__name">{{ prez.name }}</h1>
+
+<ul class="pres-timeline__achievements">
+	{% for item in prez.achievements%}
+	<li class="pres-achievements__item">{{ item }}</li>
+	{% endfor %}
+</ul>
+{% endfor %}
